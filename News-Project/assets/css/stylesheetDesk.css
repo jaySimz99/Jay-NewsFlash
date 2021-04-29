@@ -45,7 +45,8 @@ input {
 nav {
   position: absolute;
   display: flex;
-  left: 35.4%;
+  left: 50%;
+  transform: translate(-50%, 0%) ;
 }
 
 li {
@@ -104,4 +105,16 @@ footer {
   margin-top: 20px;
   height: 200px;
   width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  li {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  li {
+    font-size: 16px;
+  }
 }
