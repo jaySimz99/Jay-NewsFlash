@@ -98,3 +98,10 @@ a:hover {
 h2 {
   color: black;
 }
+
+footer {
+  background-color: rgb(44, 41, 44);
+  margin-top: 20px;
+  height: 200px;
+  width: 100%;
+}
